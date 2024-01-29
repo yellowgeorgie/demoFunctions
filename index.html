@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DEMO - Functions</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <main>
+            <h1>What is your favourite programming language?</h1>
+            <form action="#" method="#">
+                <input type="radio" value="JS" id="JS" name="choice" />
+                <label for="JS">Javascript</label>
+                <input type="radio" value="PY" id="PY" name="choice" />
+                <label for="PY">Python</label>
+                <input type="radio" value="RU" id="RU" name="choice" />
+                <label for="RU">Rust</label>
+                <input type="radio" value="C" id="C" name="choice" />
+                <label for="C">C++</label>
+                <button type="submit">Vote!</button>
+            </form>
+            <h3>Total Votes: 0</h3>
+            <div class="results">
+                <div>
+                    <label for="JS">JavaScript</label>
+                    <progress value="" max="10" id="JS">2%</progress>
+                </div>
+                <div>
+                    <label for="PY">Python</label>
+                    <progress value="" max="10" id="PY">2</progress>
+                </div>
+                <div>
+                    <label for="RU">Rust</label>
+                    <progress value="" max="10" id="RU">2</progress>
+                </div>
+                <div>
+                    <label for="C">C++</label>
+                    <progress value="" max="10" id="C">2</progress>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

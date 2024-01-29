@@ -1,0 +1,94 @@
+body,
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+main {
+    width: 400px;
+    height: 500px;
+    background-color: lightblue;
+    border-radius: 0.25em;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+form,
+.results {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+input,
+label {
+    margin-bottom: 13px;
+}
+
+button {
+    flex-basis: 100%;
+    appearance: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.25rem;
+    height: 40px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: red;
+}
+
+h3 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results div {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.results label,
+.results progress {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.results label {
+    width: 23%;
+}
+
+progress {
+    width: 75%;
+    transition: all, ease-in, 1000ms;
+}
