@@ -21,7 +21,7 @@ main {
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px 5px gray;
+    text-shadow: 2px 2px 5px rgb(167, 167, 167);
 }
 
 form,
